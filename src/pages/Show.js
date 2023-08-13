@@ -6,10 +6,12 @@ function Show(props) {
     return (
       <div className="cheese">
 
-      <div className="cheeseCardShow">  
+      <div className="cheeseCardShow">
+        <div className="cardContainer">  
         <h1>{cheese.name}</h1>
         <h2>Originally From: {cheese.countryOfOrigin}</h2>
         <img src={cheese.image} alt={cheese.name} />
+        </div>
         </div>
       <div className="updateForm">
         <h2>Update {cheese.name}</h2>
