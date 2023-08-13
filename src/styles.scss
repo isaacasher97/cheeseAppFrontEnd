@@ -56,6 +56,9 @@ nav {
 // INDEX PAGE
 
 .indexContainer {
+
+
+  
   .cheeseCard {
     display: flex;
     flex-direction: row;
@@ -78,4 +81,85 @@ nav {
 
 h1 {
   text-align: center;
+}
+
+//Index Form
+
+.createForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 10px;
+  width: 70%;
+  margin: 10px auto;
+  border-radius: 15px;
+  h2 {
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+    input {
+      padding: 8px;
+      border: 3px solid black; 
+      border-radius: 10px;
+    }
+  }
+
+}
+
+.currentCheese {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+//SHOW PAGE
+
+.cheese {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  //nested form styling
+
+  .updateForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 10px;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 15px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+  
+      input {
+        padding: 8px;
+        border: 3px solid black; 
+        border-radius: 10px;
+      }
+    }
+  }
+
+
+  //styling nested delete button
+
+  .deleteButton {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #a40606;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+  }
 }

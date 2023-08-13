@@ -14,10 +14,10 @@ function Index(props) {
         <input type="submit" value="Create Cheese" />
       </Form>
       </div>
-      <h2>Current Cheese</h2>
+      <h2 className="currentCheese">Current Cheese</h2>
+
 
      <div className="cheeseCard">
-
       {cheeses.map(cheese => (
         <div key={cheese._id} className="cheeseContatiner">
           <Link to={`/${cheese._id}`}>
