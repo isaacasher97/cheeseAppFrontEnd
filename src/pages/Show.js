@@ -5,10 +5,12 @@ function Show(props) {
   
     return (
       <div className="cheese">
+
+      <div className="cheeseCardShow">  
         <h1>{cheese.name}</h1>
         <h2>Originally From: {cheese.countryOfOrigin}</h2>
         <img src={cheese.image} alt={cheese.name} />
-
+        </div>
       <div className="updateForm">
         <h2>Update {cheese.name}</h2>
       <Form action={`/update/${cheese._id}`} method="post">
