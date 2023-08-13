@@ -52,3 +52,30 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
   }
 }
+
+// INDEX PAGE
+
+.indexContainer {
+  .cheeseCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    a {
+      text-decoration: none;
+      color: aliceblue;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    img {
+      width: 400px;
+      height: 300px;
+    }
+  }
+}
+
+h1 {
+  text-align: center;
+}
